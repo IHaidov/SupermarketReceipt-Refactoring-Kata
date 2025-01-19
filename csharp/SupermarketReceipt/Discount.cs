@@ -1,3 +1,4 @@
+//dummy comment for review comments
 namespace SupermarketReceipt
 {
     public class Discount
