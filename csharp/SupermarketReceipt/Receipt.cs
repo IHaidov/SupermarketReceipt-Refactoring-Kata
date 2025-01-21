@@ -61,6 +61,7 @@ namespace SupermarketReceipt
         public ReceiptItem(Product p, double quantity, double price, double totalPrice)
         {
             Product = p;
+            // Why p? not product
             Quantity = quantity;
             Price = price;
             TotalPrice = totalPrice;

@@ -33,6 +33,7 @@ namespace SupermarketReceipt
             foreach (var pq in productQuantities)
             {
                 var p = pq.Product;
+                // why p? not product
                 var quantity = pq.Quantity;
                 // Problem: No validation for the quantity property in pq.
                 // Solution: Add a check to ensure pq.Quantity > 0.
